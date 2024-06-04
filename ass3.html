@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button><a href="index.html">back</a></button>
+
+    <script>
+        
+        var studentliteral = [];
+        // var studentobjnotation = new array();
+        var stringarray=["huzaifa","ali","ahmed"];
+        var numarray=[1,2,3];
+        var booleanarray=(true,false);
+        var mixedarray=["apple",5,true,"pear",false];
+document.write("Qualification:");
+
+
+var qualificationarray=[];
+document.write("<br>SSCH <br> SCBCS<br> BS <br> BCOM <br> MS <br> M. Phil <br> PhD")
+var i = 0;
+
+while (i < qualificationarray.length) {
+  document.write(qualificationarray[i]);
+  i++;
+}
+document.write("<br>")
+alert("task8")
+var studentsid = ["michal", "jone", "tony"];
+var scores = [150,200 ,150];
+var totalMarks = 500 ;
+var percentage1 =(scores[0]/totalMarks)*100
+var percentage2 =(scores[1]/totalMarks)*100
+var percentage3 =(scores[2]/totalMarks)*100
+document.write("michal"+"scores"+scores[0]+"percentage is"+percentage1+"%<br>")
+document.write("jone"+"scores"+scores[1] +"percentage is"+percentage2+"%<br>")
+document.write("tony"+"scores"+scores[2] +"percentage is"+percentage3+"%<br>")
+alert("task 9")
+var colorarray =[,"red","blue","green","yellow",]
+
+document.write(colorarray);
+document.write("<br>")
+startingcolor=prompt("enter start color")
+document.write(startingcolor)
+
+document.write(colorarray)
+document.write("<br>")
+endingcolor=prompt("enter ending color")
+document.write(colorarray)
+document.write(endingcolor)
+document.write("<br>")
+alert("task10")
+color1=prompt("enter  color 1")
+color2=prompt("enter  color 2")
+var addcolorarray=[color1,color2,colorarray]
+document.write(addcolorarray)
+colorarray.shift();
+
+const indexnum=parseInt( prompt("enter indexnum"));
+desiredcolor=prompt("enter desiredcolor")
+
+let index = parseInt(prompt("Enter the index at which you want to start deleting colors (0-based index):"));
+
+
+        let count = parseInt(prompt("Enter the number of colors you want to delete:"));
+        if (!isNaN(index) && !isNaN(count) && index >= 0 && index < colors.length && count > 0) {
+
+            colors.splice(index, count);
+
+     
+            alert("Updated colors: " + colors.join(", "));
+        } else {
+            alert("Invalid input. Please refresh the page and try again.");
+        }
+
+document.write("<br><br>")
+studentscore =[320,240,480,120] 
+studentscore.sort((a,b) => a-b);
+document.write(studentscore);
+
+document.write("<br><br>")
+alert("task11")
+citiesname=["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+document.write(citiesname[0])
+document.write ("<br>") 
+document.write(citiesname[1])
+document.write ("<br>") 
+document.write(citiesname[2]) 
+document.write ("<br>") 
+alert("task12")
+var arr = ["This ", " is ", " my ", " cat"];
+document.write(arr)
+document.write ("<br>") 
+var strig=["This  is  my  cat"];
+document.write(strig)
+document.write("<br><br>")
+alert("task13")
+//  const fifo =newfifoarray["Keyboard","mouse","printer","monitor"]
+var fifoArray=["Keyboard","mouse","printer","monitor"]
+const fifo=fifoArray
+fifo.push("kyeboard")
+fifo.push("mouse")
+fifo.push("printer")
+fifo.push("monitor");
+
+document.write(fifo.shift())
+document.write("<br>")
+document.write(fifo.pop())
+document.write("<br>")
+document.write(fifo.shift())
+document.write("<br>")
+document.write(fifo.pop())
+document.write("<br>")
+document.write(fifo.shift())
+document.write("<br>")
+document.write(fifo.pop())
+document.write("<br><br>")
+alert("task14")
+var lifoArray=["Keyboard","mouse","printer","monitor"]
+const lifo=fifoArray
+lifo.push("kyeboard")
+lifo.push("mouse")
+lifo.push("printer")
+lifo.push("monitor");
+
+document.write(lifo.shift())
+document.write("<br>")
+document.write(lifo.pop())
+document.write("<br>")
+document.write(lifo.shift())
+document.write("<br>")
+document.write(lifo.pop())
+document.write("<br>")
+document.write(lifo.shift())
+document.write("<br>")
+document.write(lifo.pop())
+document.write("<br><br>")
+alert("task15")
+var mobileManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+document.write("<select>");
+for (var i = 0; i < mobileManufacturers.length; i++) {
+    document.write("<option>" + mobileManufacturers[i] + "</option>");
+}
+document.write("</select>");
+</script>
+</body>
+</html>
